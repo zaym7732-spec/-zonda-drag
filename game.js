@@ -122,3 +122,4 @@ function animate(now){
 animate(performance.now());
 setTimeout(()=>document.querySelector("#loading").classList.add("gone"),900);
 addEventListener("resize",()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight);});
+https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/controls/OrbitControls.js
